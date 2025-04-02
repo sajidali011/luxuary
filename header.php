@@ -4,7 +4,7 @@
             <div class="col-3">
                 <div class="site-logo">
                     <a href="index.php" class="text-white">
-                        <span style="font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700;">Luxuria</span>
+                        <span style="font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700;">luxury</span>
                     </a>
                 </div>
             </div>
@@ -18,6 +18,28 @@
                 </span>
                 <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                     <ul class="site-menu main-menu js-clone-nav ml-auto">
+
+                        <li class="position-relative">
+                            <a href="upcoming_projects.php" class="d-block">
+                                <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3F4d3JnYXQ2d21jNWphenNuNHZkMG45dTM5eHNkZnZwaXVleXpybCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1zGwAyZg7zuJLrJcyf/giphy.gif" 
+                                     alt="Upcoming Projects" 
+                                     class="img-fluid auto-zoom"
+                                     style="width: 100px; height: auto; margin-left: 10px;">
+                            </a>
+                        </li>
+
+                        <style>
+                            @keyframes zoomInOut {
+                                0% { transform: scale(1); }
+                                50% { transform: scale(1.2); } /* Zoom In */
+                                100% { transform: scale(1); } /* Zoom Out */
+                            }
+
+                            .auto-zoom {
+                                animation: zoomInOut 2s infinite ease-in-out;
+                            }
+                        </style>
+
                         <li class="active"><a href="index.php" class="nav-link">Home</a></li>
                         <li class="position-relative">
                             <a href="Ongoing_projects.php" class="nav-link">Residential</a>
@@ -55,8 +77,8 @@
                             </div>
                         </li>
                         <li><a href="about.php" class="nav-link">About</a></li>
-                        <!-- <li><a href="blog.php" class="nav-link">Blog</a></li> -->
                         <li><a href="contact.php" class="nav-link">Contact</a></li>
+                        <li><a href="tel:+918920666807" class="text-warning fw-bold" style="font-size: 1.3rem; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); text-decoration: none; color: yellow !important;">8920666807</a></li>
                     </ul>
                 </nav>
             </div>
@@ -68,7 +90,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600&display=swap');
 
     .site-navbar {
-        background: rgba(0, 0, 0, 0.9);
+        background: rgb(71, 118, 21);
         padding: 15px 0;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     }
@@ -81,12 +103,13 @@
     .site-menu .nav-link {
         color: white;
         padding: 10px 15px;
-        transition: color 0.3s ease;
+        transition: background-color 0.3s ease; /* Added transition */
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
     }
 
     .site-menu .nav-link:hover, .site-menu .active .nav-link {
+        background-color: rgba(255, 255, 255, 0.1); /* Added background on hover */
         color: #66ccff;
     }
 

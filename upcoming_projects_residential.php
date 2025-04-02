@@ -12,7 +12,7 @@
 <body>
 
 <div class="container mt-5">
-    <h1 class="text-center mb-5 display-3 fw-bold text-uppercase">Upcoming Projects</h1>
+   
 
     <!-- Residential Projects Section -->
     <div class="card mb-5 shadow-lg border-0">

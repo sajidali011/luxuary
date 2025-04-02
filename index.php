@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
 </head>
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -688,7 +690,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <!-- enquiry form -->
-<!-- Compact Bootstrap Modal -->
 <div class="modal fade" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" style="max-width: 320px;">
         <div class="modal-content shadow-sm" style="border-radius: 12px;">
@@ -785,6 +786,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 </script>
 <!-- end enquiry form -->
+
+<!-- Phone Call Button -->
+<a href="tel:+918920666807" class="call-btn position-fixed bottom-3 end-3" title="Call Now" >
+    <span style="font-size: 24px; color: white;">📞</span>
+</a>
 
    <!-- WhatsApp Icon (Mid-Right Side) -->
 <a href="https://wa.me/919540515454" target="_blank" class="position-fixed top-50 translate-middle-y end-0 me-3" title="Chat on WhatsApp" style="width: 45px; height: 45px; background-color: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2); z-index: 1050;">
